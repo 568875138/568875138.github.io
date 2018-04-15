@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+title: VICI CODE
+subtitle: 互联网资讯博主 计算机网络管理员
+description: 没有什么可介绍的。
+keywords: 互联网,网络安全,系统集成
+author: Silent Yang
+language: zh-cmn
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://www.vicicode.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
