@@ -8,7 +8,7 @@ subtitle: 互联网资讯博主 计算机网络管理员
 description: 没有什么可介绍的。
 keywords: 互联网,网络安全,系统集成
 author: Silent Yang
-language: zh-CN
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
