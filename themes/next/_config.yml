@@ -35,7 +35,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: ""
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -111,7 +111,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+scheme: Pisces
 #scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
@@ -126,9 +126,9 @@ scheme: Muse
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+social:
+  GitHub: https://github.com/568875138 || github
+  E-Mail: mailto:silenty4ng@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
