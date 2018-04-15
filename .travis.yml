@@ -9,6 +9,7 @@ script:
 
 after_script:
   - cd ./public
+  - echo "www.vicicode.com" > CNAME
   - git init
   - git config user.name "Silent Yang"
   - git config user.email "568875138@qq.com"
