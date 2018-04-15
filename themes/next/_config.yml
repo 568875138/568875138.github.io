@@ -150,7 +150,9 @@ links_layout: block
 #links_layout: inline
 #links:
   #Title: http://example.com/
-
+links:
+  沐小晨曦: http://omooo.top
+  昌维: http://www.changwei.me
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
