@@ -2,4 +2,23 @@
 title: Hello World
 ---
 
-换用Github，方便，省事。
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+考虑到我服务器性能太差，稍微一点流量就死掉了，所以换用Github托管Hexo的方式，使用Travis CI来实现自动部署，这样我直接在Github编辑文章就可以自动发布了。
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE50PHlF7RqNYeJun8O0fJBBWnAWYFAlrUJ/wACgkQO0fJBBWn
+AWZUTQ//SsasdN0VcDRpPrYqIQq3iUm7nYxm9rfGO6to6b/sd+EGvuebpaFF53p1
+okbQ0Gu4MK5KC89atQF0WpbVowoYT3hTcr62APVsx640PDkFVdTC6NOkdGhLjdds
+pARpDIEIOK1KnOjQeNB57RIkjWinfB1F3jv9yEx8928j4/OX9Vzpe1WeKVajWtU1
+B8AH69S0TCnDuRaJq1cWUNLUuQGMxK7iuarHSQx3Lgh0Wcp319VXkw+wtI7199xQ
+qQ95HEg7N0LGiubw0bd9+/qewxoigu+pQJKcM8NbEvRiIEHDMW+D7/ywe5j/D+3O
+GivA+O+lj7GEf9ehDUoAacY53Ys4nj3tf+74T9xMaaBcLL9a6R1dUx8RE+D/38lX
+PSJPMUjs3OGTd98dm1/DQq0SA7/YSSid6jWOHw/EVE7Q0gAR/rgErE+yquXrAiz2
+lbI4HdHK1duM4XftNfAlxR0j7xiFUgdjFPbZYHZOkUqJclx7gDoUxUKriuK+WL6H
+JeBmhopseMmTJNf7rVTbl6bv0cVw48/2y6Gb8HzIU0lxBfvepVx8zieRcDXY1N37
+tSx9Z/+JTwQJcoseI6b1Z22ZkD8MFN4/T9fuln6AuwH7u2LKavVOs3wmXJKP9btn
+l+H5L9lPjafCx8O6hlBoraDNcBaA+Q1yOtXAHK8mv4FLj646M8Y=
+=HWPg
+-----END PGP SIGNATURE-----
