@@ -303,7 +303,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
-  host://www.vicicode.com
+  host: //www.vicicode.com
 
   # Font options:
   # `external: true` will load this font family from `host` above.
