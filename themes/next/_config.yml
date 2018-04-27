@@ -303,7 +303,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
-  host:
+  host://www.vicicode.com
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -312,7 +312,7 @@ font:
 
   # Global font settings used on <body> element.
   global:
-    external: false
+    external: true
     family: SentyZHAO
     # family: Lato
     size:
