@@ -300,7 +300,7 @@ highlight_theme: normal
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -313,7 +313,8 @@ font:
   # Global font settings used on <body> element.
   global:
     external: true
-    family: Lato
+    family: SentyZHAO
+    # family: Lato
     size:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
