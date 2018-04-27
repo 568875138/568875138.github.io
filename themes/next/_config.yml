@@ -300,10 +300,10 @@ highlight_theme: normal
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
-  host: //www.vicicode.com
+  host:
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -313,16 +313,13 @@ font:
   # Global font settings used on <body> element.
   global:
     external: true
-    family: SentyZHAO
-    # family: Lato
-    size:
+    family: Lato
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
   headings:
     external: true
     family:
-    size:
 
   # Font settings for posts.
   # Fallback to `global` font settings.
@@ -335,13 +332,11 @@ font:
   logo:
     external: true
     family:
-    size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
     family:
-    size:
 
 
 # ---------------------------------------------------------------
