@@ -367,8 +367,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: vici-code
   count: true
 
 # Hypercomments
