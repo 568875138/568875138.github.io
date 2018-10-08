@@ -150,6 +150,8 @@
   };
 </script>
 
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="809f5272-eb4d-40c4-b63f-c231e2cf5a57" type="text/javascript" async></script>
+
 {# Canonical, good for google search engine (SEO) : https://support.google.com/webmasters/answer/139066 #}
 {% if theme.canonical %}
   <link rel="canonical" href="{{ config.url }}/{{ page.canonical_path.replace('index.html', '') }}"/>
