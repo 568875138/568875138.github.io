@@ -5,7 +5,7 @@
 ## 这个 Git 可以做什么
 
 * 备份我的博客
-    *  使用 `git clone` 克隆一个我的博客 hexo 分支并执行 hexo g 生成
+    *  使用 `git clone` 克隆一个我的博客 `hexo` 分支并执行 `hexo g` 生成
     *  直接下载 `master` 分支本地浏览
 * 通过合并请求投稿文章
 
