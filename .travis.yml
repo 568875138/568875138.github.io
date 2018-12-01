@@ -11,6 +11,7 @@ after_script:
   - cd ./public
   - echo "www.vicicode.com" > CNAME
   - cp ../404.html .
+  - cp ../README.md .
   - git init
   - git config user.name "Silent Yang"
   - git config user.email "568875138@qq.com"
