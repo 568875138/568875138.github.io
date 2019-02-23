@@ -11,10 +11,11 @@ RUN mkdir ${DEVKITPRO}/devkitARM && \
     wget https://github.com/devkitPro/buildscripts/releases/download/devkitARM_r50/devkitARM_r50-linux.tar.xz && \
     tar xvJf devkitARM_r50-linux.tar.xz -C ${DEVKITPRO} && \
     git clone --recurse-submodules  https://github.com/switchbrew/libnx && cd libnx && \
-    make && make install
+    make -j8 && make install
 
-RUN apt update && apt install -y python python-pip zip && \
-    pip install pycrypto pycryptoplus
+RUN apt update && apt install -y python3 python3-pip zip && \
+    pip3 install pycrypto pycryptoplus && \
+    ln -s /usr/bin/python3 /usr/bin/python
 
 ENV DEVKITARM=${DEVKITPRO}/devkitARM
 
