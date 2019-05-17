@@ -155,16 +155,17 @@ links_layout: inline
 #links:
   #Title: http://example.com/
 links:
-  沐小晨曦: http://omooo.top
-  昌维: http://www.changwei.me
-  金子哲的WP: https://wp.jinzz.cc
-  vict0r: http://vict0r.net
-  Solidot: https://www.solidot.org
-  TypeCodes: https://typecodes.com
-  Edi Wang: http://edi.wang
-  Harris's Blog: https://genleak.com
-  Hold heart: https://fmdi.top
-  Ah's 博客: https://blog.forgiveher.cn
+  沐小晨曦: http://omooo.top/
+  昌维: http://www.changwei.me/
+  金子哲的WP: https://wp.jinzz.cc/
+  vict0r: http://vict0r.net/
+  Solidot: https://www.solidot.org/
+  TypeCodes: https://typecodes.com/
+  Edi Wang: http://edi.wang/
+  Harris's Blog: https://genleak.com/
+  Hold heart: https://fmdi.top/
+  Ah's 博客: https://blog.forgiveher.cn/
+  无邪's 博客: https://wuxiexie.github.io/
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
