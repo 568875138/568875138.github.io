@@ -13,7 +13,7 @@ date: 2019/5/17 20:20:00
 [Ghidra][2]
 [bitwarden_rs][3]
 
-就这些了吧。
+就这些了吧。OK
 
   [1]: https://github.com/cnlh/nps "内网穿透代理服务器"
   [2]: https://github.com/NationalSecurityAgency/ghidra "NSA 开源逆向工具"
