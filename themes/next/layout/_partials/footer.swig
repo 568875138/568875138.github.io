@@ -42,6 +42,7 @@
 
 {% if theme.footer.custom_text %}
   <div class="footer-custom">{#
-  #}{{ theme.footer.custom_text }}{#
+  #}{{ theme.footer.custom_text }}<br /><a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20210066" target="_blank"> 20210066号</a>{#
 #}</div>
+
 {% endif %}
