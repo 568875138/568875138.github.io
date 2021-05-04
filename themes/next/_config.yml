@@ -128,9 +128,9 @@ scheme: Pisces
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/568875138 || github
-  E-Mail: mailto:silenty4ng@gmail.com || envelope
+  E-Mail: mailto:i@vicicode.com || envelope
   微博: http://weibo.com/234022757 || weibo
-  OpenPGP: http://keys.gnupg.net/pks/lookup?op=vindex&search=0x93F20DF8D55178354C3BB4AD43BC51B2F2C19D09 || key
+  #OpenPGP: http://keys.gnupg.net/pks/lookup?op=vindex&search=0x93F20DF8D55178354C3BB4AD43BC51B2F2C19D09 || key
   Telegram: https://t.me/silentyang || telegram
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
