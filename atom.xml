@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>VICI CODE</title>
+  
+  <subtitle>互联网资讯博主 计算机网络管理员</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.vicicode.com/"/>
+  <updated>2021-06-08T11:16:47.643Z</updated>
+  <id>https://www.vicicode.com/</id>
+  
+  <author>
+    <name>Silent YANG</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决 Python “Microsoft Visual C++ 14.0 is required.” 问题</title>
+    <link href="https://www.vicicode.com/2019/08/06/DistutilsPlatformError-Python/"/>
+    <id>https://www.vicicode.com/2019/08/06/DistutilsPlatformError-Python/</id>
+    <published>2019-08-06T12:20:00.000Z</published>
+    <updated>2021-06-08T11:16:47.643Z</updated>
+    
+    <content type="html"><![CDATA[<p>别在 Windows 上用 Python ，大概是个劝告吧，就算你解决了这个问题，还会有别的问题等着你。<br>不过标题都写了，还是要讲一下怎么解决的。</p><ul><li>1.打开微软 VS 官方的下载页面 <a href="https://visualstudio.microsoft.com/zh-hans/downloads/" target="_blank" rel="noopener">https://visualstudio.microsoft.com/zh-hans/downloads/</a> 。</li><li>2.往下找到 “Visual Studio 2019 工具” 选项卡，下载 “Visual Studio 2019 生成工具”。</li><li>3.运行下载好的安装包，勾选 “工作负载” 选项卡中的 “C++ 生成工具” 后，勾选右侧安装详细信息中的 “MSVC v141”、“MSVC v140” 并开始安装。</li></ul><p>问题解决。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;别在 Windows 上用 Python ，大概是个劝告吧，就算你解决了这个问题，还会有别的问题等着你。&lt;br&gt;不过标题都写了，还是要讲一下怎么解决的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1.打开微软 VS 官方的下载页面 &lt;a href=&quot;https://visualstudio
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>都没写什么文章</title>
+    <link href="https://www.vicicode.com/2019/05/17/nothing/"/>
+    <id>https://www.vicicode.com/2019/05/17/nothing/</id>
+    <published>2019-05-17T12:20:00.000Z</published>
+    <updated>2021-06-08T11:16:47.643Z</updated>
+    
+    <content type="html"><![CDATA[<p>内容产出真的很难，一是没东西可以写，二是写东西需要精力，而我又特别懒。<br>涉及到工作的，因为老板给了钱，我肯定也不能分享太多。<br>这样我就很难真的在博客写什么内容。</p><p>最近遇到的一些挺有趣的开源项目，给大家分享一下。</p><p><a href="https://github.com/cnlh/nps" title="内网穿透代理服务器" target="_blank" rel="noopener">nps</a><br><a href="https://github.com/NationalSecurityAgency/ghidra" title="NSA 开源逆向工具" target="_blank" rel="noopener">Ghidra</a><br><a href="https://github.com/dani-garcia/bitwarden_rs" title="用 Rust 编写的非官方 Bitwarden 兼容服务器" target="_blank" rel="noopener">bitwarden_rs</a></p><p>就这些了吧。OK</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;内容产出真的很难，一是没东西可以写，二是写东西需要精力，而我又特别懒。&lt;br&gt;涉及到工作的，因为老板给了钱，我肯定也不能分享太多。&lt;br&gt;这样我就很难真的在博客写什么内容。&lt;/p&gt;
+&lt;p&gt;最近遇到的一些挺有趣的开源项目，给大家分享一下。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;ht
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>验证 Telegram MTProto Proxy 代理服务器</title>
+    <link href="https://www.vicicode.com/2018/06/23/TMMProxy/"/>
+    <id>https://www.vicicode.com/2018/06/23/TMMProxy/</id>
+    <published>2018-06-23T16:32:00.000Z</published>
+    <updated>2021-06-08T11:16:47.643Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于在日常会使用到 Telegram 聊天，WiFi环境下有路由处理流量，而用4G的时候手机不挂VPN就没办法使用了，这时发现在 Telegram 内置的代理设置里包括 Socks5、HTTP、MTProto 三种代理协议。</p><p>其中 Socks5 和 HTTP 都是大家熟悉的代理协议，稳定性和性能也都比较差，而新发现的这个 MTProto 应该是 Telegram 自研的代理协议，在 Telegram 使用这个自研的代理协议应该是最可靠的方案，于是我开始查找关于 MTProto 代理服务器的资料，并搭建了一个 MTProto 协议的代理服务器。</p><p>首先，我找到了 MTProto 代理服务器的官方机器人 @MTProxybot ，开始会话后，会发送一个说明，提示在 <a href="https://hub.docker.com/r/telegrammessenger/proxy/" target="_blank" rel="noopener">Docker Hub</a> 可以下载到 Telegram 代理服务器的软件，通过 Docker 快速部署一个代理服务器。</p><ul><li>安装 Docker</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -sSL https://get.docker.com/ | sh</span><br></pre></td></tr></table></figure><ul><li>运行 MTProto 代理服务器</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -d -p443:443 --name=mtproto-proxy --restart=always -v proxy-config:/data telegrammessenger/proxy:latest</span><br></pre></td></tr></table></figure><p>成功运行 MTProto 代理服务器后，通过<code>docker logs mtproto-proxy</code>可以查看代理服务器密钥。</p><p>回到 @MTProxybot 机器人，发送<code>/newproxy</code>指令创建一个用于代理服务器的标签，这样就可以在机器人进行状态查询和绑定频道的操作。</p><ul><li>创建成功示例</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Success!</span><br><span class="line">Your proxy has been successfully registered.</span><br><span class="line">You can now pass this proxy tag to the software you are using: 0b42fca6d61e98001855b1af95461dbe.</span><br></pre></td></tr></table></figure><blockquote><p>其中<code>0b42fca6d61e98001855b1af95461dbe</code>就是用于代理服务器的标签。</p></blockquote><p>获得标签后，停止并删除原来创建的 Docker 容器，重新运行一个带有 TAG 参数的容器。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker stop mtproto-proxy</span><br><span class="line">docker rm mtproto-proxy</span><br><span class="line">docker run -d -p443:443 --cap-add SYS_RESOURCE --name=mtproto-proxy --restart=always -e TAG=0b42fca6d61e98001855b1af95461dbe -v proxy-config:/data telegrammessenger/proxy:latest</span><br></pre></td></tr></table></figure></p><blockquote><p>由于 Docker 卷 proxy-config 并没有被删除，所以代理服务器密钥并不会发生变化，此时所有的搭建工作就已经完成。</p></blockquote><p>点击机器人提供的快速连接链接，即可连接到自己搭建的 Telegram MTProto Proxy 代理服务器。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;由于在日常会使用到 Telegram 聊天，WiFi环境下有路由处理流量，而用4G的时候手机不挂VPN就没办法使用了，这时发现在 Telegram 内置的代理设置里包括 Socks5、HTTP、MTProto 三种代理协议。&lt;/p&gt;
+&lt;p&gt;其中 Socks5 和 HTTP 
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Shadowsocks Docker 版</title>
+    <link href="https://www.vicicode.com/2018/04/16/shadowsocks-docker/"/>
+    <id>https://www.vicicode.com/2018/04/16/shadowsocks-docker/</id>
+    <published>2018-04-16T12:20:00.000Z</published>
+    <updated>2021-06-08T11:16:47.643Z</updated>
+    
+    <content type="html"><![CDATA[<p>Shadowsocks 是一种基于 Socks5 代理方式的网络数据加密传输工具。Shadowsocks 分为服务器端和客户端，在使用之前，需要先将服务器端部署到服务器上面，然后通过客户端连接并创建本地代理。</p><p>使用 Dockerfile 可以轻松的构建自己的镜像，再通过 Docker Hub 提供的自动构建机，我制作了一个 Docker 版的 Shadowsocks，可以在 Docker 机器上轻松的创建管理 Shadowsocks 服务而不用考虑 Shadowsocks 的依赖问题，同时隔离的运行环境也提高了一点安全性。</p><p><a href="https://hub.docker.com/r/silentyang/shadowsocks/" target="_blank" rel="noopener">https://hub.docker.com/r/silentyang/shadowsocks/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Shadowsocks 是一种基于 Socks5 代理方式的网络数据加密传输工具。Shadowsocks 分为服务器端和客户端，在使用之前，需要先将服务器端部署到服务器上面，然后通过客户端连接并创建本地代理。&lt;/p&gt;
+&lt;p&gt;使用 Dockerfile 可以轻松的构建自己的镜
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.vicicode.com/2018/04/15/hello-world/"/>
+    <id>https://www.vicicode.com/2018/04/15/hello-world/</id>
+    <published>2018-04-15T12:20:00.000Z</published>
+    <updated>2021-06-08T11:16:47.643Z</updated>
+    
+    <content type="html"><![CDATA[<p>考虑到我服务器性能太差，稍微一点流量就死掉了，所以换用Github托管Hexo的方式，使用Travis CI来实现自动部署，这样我直接在Github编辑文章就可以自动发布了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;考虑到我服务器性能太差，稍微一点流量就死掉了，所以换用Github托管Hexo的方式，使用Travis CI来实现自动部署，这样我直接在Github编辑文章就可以自动发布了。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
